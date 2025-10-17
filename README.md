@@ -29,10 +29,10 @@ Source: https://drive.google.com/file/d/19p85w5O3ET4HMlJvYREUis0WqHOcwRyw/view
 
 Report means of work_hours by department
 
-ER	  8.99
-ICU	  9.02
-OPD	  9.01
-Ward	8.96
+- ER	  8.99
+- ICU	  9.02
+- OPD	  9.01
+- Ward	8.96
 
 <h1>Q2: Machine Learning Mini Task</h1>
 Source: https://drive.google.com/file/d/1A8JVygr_iGHNN6glCfegRE3OrZSOVSXs/view
@@ -50,22 +50,21 @@ Data Split: e.g., 80% train / 20% test
 
 <h2>Model Training</h2>
 
-Describe:
-
 Model: LogisticRegression
 
 <h2>Evaluation</h2>
 
-Metric	Score
-Accuracy	0.83
-Precision	0.80
-Recall	0.84
+Metric Score
+
+- Accuracy    0.83
+- Precision	  0.80
+- Recall	    0.84
 
 <h2>Coefficients</h2>
 
-experience_years      0.4696
-training_hours        0.1971
-age                  -0.0058
+- experience_years      0.4696
+- training_hours        0.1971
+- age                  -0.0058
 
 <h2>Results</h2>
 
@@ -171,19 +170,15 @@ random_row_2 = df_final_filtered.iloc[random_idx_2, :].tolist()</pre>
 
 The first shift schedule
 
-Day 1: ('C', 'D')
-
-Day 2: ('A', 'B')
-
-Day 3: ('A', 'D')
+- Day 1: ('C', 'D')
+- Day 2: ('A', 'B')
+- Day 3: ('A', 'D')
 
 The second shift schedule
 
-Day 1: ('A', 'C')
-
-Day 2: ('B', 'C')
-
-Day 3: ('B', 'D')
+- Day 1: ('A', 'C')
+- Day 2: ('B', 'C')
+- Day 3: ('B', 'D')
 
 <h2>Rationales behind these two chosen schedules</h2>
 
