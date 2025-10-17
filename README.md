@@ -1,6 +1,6 @@
 <h1>MediAct test for Data Science Position</h1>
 
-“Data Wrangling, Machine Learning Mini Task, Logic & Problem Solving”).
+“Data Wrangling, Machine Learning Mini Task, Logic & Problem Solving”
 
 
 <h2>Overview</h2>
@@ -19,7 +19,8 @@ Source: https://drive.google.com/file/d/19p85w5O3ET4HMlJvYREUis0WqHOcwRyw/view
 - 2 key features:
   - department
   - work_hours
-- labels: performance_score
+- labels:
+  - performance_score
 - preprocessing steps:
   - drop duplicates
   - fill missing work_hours with mean
@@ -43,7 +44,8 @@ Description:
   - age
   - experience_years
   - training_hours
-- labels: passed_exam (0, 1)
+- label:
+  - passed_exam (0, 1)
 - preprocessing steps: drop duplicates, drop NA
 
 Data Split: e.g., 80% train / 20% test
